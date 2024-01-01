@@ -7,6 +7,7 @@ import java.util.*;
 
 public class basic {
 
+    // functions to take input
     public static double[] inputArray() {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
@@ -19,10 +20,20 @@ public class basic {
         return dArray;
     }
 
+    // functions to print the array
     public static void printArray(double []dArray){
         for(int i = 0 ;i < dArray.length ;i++){
             System.out.println(dArray[i]);
         }
+    }
+
+    public static int largestElement(int []arr){
+        int max = Integer.MIN_VALUE;
+        for(int i = 0; i < arr.length; i++){
+            if(max < arr[i]) max = arr[i];
+
+        }
+        return max;
     }
 
     public static void main(String[] args) {
@@ -41,6 +52,11 @@ public class basic {
 
         double[] dArray = inputArray(); //taking an input
         printArray(dArray); //printing the array
+
+        // finding the largest element
+        int arr1[] = {2,34,7,56,-1,90};
+        int largest_Element = largestElement(arr1);
+        System.out.println(largest_Element);
 
     }
 }
