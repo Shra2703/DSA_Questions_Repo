@@ -21,16 +21,17 @@ public class basic {
     }
 
     // functions to print the array
-    public static void printArray(double []dArray){
-        for(int i = 0 ;i < dArray.length ;i++){
+    public static void printArray(double[] dArray) {
+        for (int i = 0; i < dArray.length; i++) {
             System.out.println(dArray[i]);
         }
     }
 
-    public static int largestElement(int []arr){
+    public static int largestElement(int[] arr) {
         int max = Integer.MIN_VALUE;
-        for(int i = 0; i < arr.length; i++){
-            if(max < arr[i]) max = arr[i];
+        for (int i = 0; i < arr.length; i++) {
+            if (max < arr[i])
+                max = arr[i];
 
         }
         return max;
@@ -48,13 +49,13 @@ public class basic {
         // arr[13] = 23; gives index out of bound error
         // array ranges is 0 to n-1
 
-        char[] cArray = new char[10]; // by default value of charachter array is null
+        // char[] cArray = new char[10]; // by default value of charachter array is null
 
-        double[] dArray = inputArray(); //taking an input
-        printArray(dArray); //printing the array
+        double[] dArray = inputArray(); // taking an input
+        printArray(dArray); // printing the array
 
         // finding the largest element
-        int arr1[] = {2,34,7,56,-1,90};
+        int arr1[] = { 2, 34, 7, 56, -1, 90 };
         int largest_Element = largestElement(arr1);
         System.out.println(largest_Element);
 

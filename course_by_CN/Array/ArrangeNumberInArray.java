@@ -1,7 +1,6 @@
 // Coding Ninajs problem
 // Sample Input 1 : 6
 // Sample Output 1 : 1 3 5 6 4 2
-import java.lang.Math;
 
 public class ArrangeNumberInArray {
 
