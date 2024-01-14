@@ -1,17 +1,17 @@
 /*
  A
- A B
- A B C
+ B B
+ C C C
  */
 
 package Patterns;
 
-public class Pattern14 {
-    public static void nLetterTriangle(int n) {
+public class Pattern16 {
+    public static void alphaRamp(int n) {
         // Write your code here
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print((char) (64 + j) + " ");
+                System.out.print((char) (64 + i) + " ");
             }
             System.out.println();
         }
