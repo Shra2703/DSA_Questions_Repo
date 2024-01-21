@@ -1,3 +1,6 @@
+// Day 2(20-01-2024)
+// Getting the last index recursvely
+
 package course_by_CN.Recursion;
 
 public class LastIndexOFArrya {
