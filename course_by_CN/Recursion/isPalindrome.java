@@ -11,7 +11,7 @@ public class isPalindrome {
         boolean smallStr = isPalindromeInner(str, start + 1, end - 1);
         return smallStr;
     }
-    public static boolean isPalindrome(String str) {
+    public static boolean isPalindrome1(String str) {
         // Write your code here.
         return isPalindromeInner(str, 0 , str.length()-1);
     }
