@@ -1,4 +1,4 @@
-package course_by_CN.ClassesAndObjects;
+package course_by_CN.OOPS.ClassesAndObjects;
 // Day 5(28-01-2024)
 // Classes and objects
 // Access Modifiers: Public = accessible anywhere, Default = accessible within the same package, private = accessible within the same class
