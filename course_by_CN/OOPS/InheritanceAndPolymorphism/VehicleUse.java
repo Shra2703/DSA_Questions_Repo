@@ -1,4 +1,4 @@
-package course_by_CN.OOPS.Inheritance;
+package course_by_CN.OOPS.InheritanceAndPolymorphism;
 // Day 7(30-01-2024)
 // Inheritance: super keyword, construcotr in inheritance, overriding, protected
 
@@ -49,12 +49,23 @@ class Car extends Vehicle{
 
 public class VehicleUse {
     public static void main(String[] args) {
+
+        // Inheritance
         Car  c = new Car(100);
         c.color = "Red";
         c.maxSpeed = 100;
         // c.company() throws an error because of private member
         c.setComapny("Audi");
         c.print();
+
+        // Polymorphism
+
+        // # we can do this that the refrence of vehicle v can point to their children and we can access the properties and function of vehicle but we can't access the properties of their children
+        Vehicle v = new Car(100);
+        v.color = "Black";
+        // v.doors = 4 throws an error because later we can change the refrence to their other children. checking this happens at compile time
+        v.print(); //this will call the car() print because this happens at runtime 
+
 
         
     }
