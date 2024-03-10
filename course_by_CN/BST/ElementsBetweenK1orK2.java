@@ -1,7 +1,7 @@
 // Day 4 (05-03-2024)
 // print the elements between k1 ans k2
 
-package course_by_CN.BST;
+
 
 public class ElementsBetweenK1orK2 {
     public static void elementsInRangeK1K2(BinaryTreeNode<Integer> root,int k1,int k2){

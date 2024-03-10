@@ -1,17 +1,13 @@
-// Day 4 (05-03-2024)
+// Day 4 (06-03-2024)
 // Construct BST using sorted array
 
-package course_by_CN.BST;
-
-
-
 public class ConstructBST {
-    public static BinaryTreeNode<Integer> SortedArrayToBSTHelper(int[] arr, int start, int end) {
+	public static BinaryTreeNode<Integer> SortedArrayToBSTHelper(int[] arr, int start, int end) {
 		if (start > end)
 			return null;
 
 		int mid = (end + start) / 2;
-		int currData = arr[mid ];
+		int currData = arr[mid];
 		BinaryTreeNode<Integer> root = new BinaryTreeNode<Integer>(currData);
 		if (start == end)
 			return root;
