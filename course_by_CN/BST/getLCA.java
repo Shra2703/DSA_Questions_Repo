@@ -1,4 +1,4 @@
-// Day 6 (10-03-2024)
+// Day 6 (11-03-2024)
 // Get LCA
 
 public class getLCA {
