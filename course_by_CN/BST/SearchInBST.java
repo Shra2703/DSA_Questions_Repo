@@ -1,7 +1,7 @@
 // Day 4 (06-03-2024)
 // Searching in BST
 
-package course_by_CN.BST;
+
 
 class BinaryTreeNode<T>{
     int data;
