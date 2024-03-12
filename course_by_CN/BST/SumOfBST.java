@@ -1,6 +1,8 @@
 // Day 6 (11-03-2024)
 // replaceWithLargerNodesSum
 
+import course_by_CN.Binary_Tree.BinaryTreeNode;
+
 public class SumOfBST {
     public static int helper(BinaryTreeNode<Integer> root, int sum) {
         // Write your code here

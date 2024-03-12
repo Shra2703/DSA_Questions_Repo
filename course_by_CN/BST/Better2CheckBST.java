@@ -1,6 +1,8 @@
 // Day 5 (07-03-2024)
 // Check if the given tree is BST or not,(BEtter)
 
+import course_by_CN.Binary_Tree.BinaryTreeNode;
+
 public class Better2CheckBST {
     public static boolean checkIfBST(BinaryTreeNode<Integer> root, int minRange, int maxRange) {
         if(root == null) return true;

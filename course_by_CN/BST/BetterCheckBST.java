@@ -1,6 +1,8 @@
 // Day 5 (07-03-2024)
 // Check if the given tree is BST or not(BEtter)
 
+import course_by_CN.Binary_Tree.BinaryTreeNode;
+
 class BSTinBT {
     boolean isBST;
     int min;

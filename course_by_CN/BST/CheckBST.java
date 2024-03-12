@@ -1,6 +1,7 @@
 // Day 5 (07-03-2024)
 // Check if the given tree is BST or not
 
+import course_by_CN.Binary_Tree.BinaryTreeNode;
 
 public class CheckBST {
     public static boolean checkIfBST(BinaryTreeNode<Integer> root) {

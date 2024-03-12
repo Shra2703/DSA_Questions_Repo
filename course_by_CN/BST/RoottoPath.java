@@ -3,6 +3,8 @@
 
 import java.util.ArrayList;
 
+import course_by_CN.Binary_Tree.BinaryTreeNode;
+
 public class RoottoPath {
     public static ArrayList<Integer> getPath(BinaryTreeNode<Integer> root, int data){
         if(root == null) return null;
